@@ -16,4 +16,4 @@ with open("day6-input.txt") as f:
   timerValues = [int(num) for num in f.read().strip().split(",")]
 
 print(f"Part 1: {sum(fishIterations(initValues=timerValues, iterations=80))}")
-print(f"Part 1: {sum(fishIterations(initValues=timerValues, iterations=256))}")
+print(f"Part 2: {sum(fishIterations(initValues=timerValues, iterations=256))}")
