@@ -55,8 +55,6 @@ def solvePart2(points, folds):
   return paper
   
 
-
-
 with open("day13-input.txt") as f:
   [markingsInput, foldInput] = f.read().split("\n\n")
 
@@ -68,10 +66,3 @@ print("Part 2: ")
 part2 = solvePart2(markedPoints, folds)
 np.set_printoptions(linewidth=100)
 showPaper(part2)
-
-
-
-# paper = foldPaper(paper, "y", 7)
-# print(np.count_nonzero(paper))
-# paper = foldPaper(paper, "x", 5)
-# printPaper(paper)
