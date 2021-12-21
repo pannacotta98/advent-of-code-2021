@@ -16,7 +16,6 @@ def part1(p1Pos, p2Pos):
 
   die=cycle(range(1, 100 + 1))
   dieRollNum = 0
-  i=0
   while True:
     p1Pos, p1Score, dieRollNum = movePlayer(p1Pos, p1Score, die, dieRollNum)
     if p1Score >= 1000:
